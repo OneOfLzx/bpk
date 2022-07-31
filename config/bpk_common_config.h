@@ -1,0 +1,42 @@
+#ifndef BPR_COOMMON_CONFIG_H
+#define BPR_COOMMON_CONFIG_H
+
+static char BPKCommonConfig[] =
+    "{\n"
+    "   \"TargetsOutDirScan\": \n"
+    "   [\n"
+    "       \"vendor\",\n"
+    "       \"system\"\n"
+    "   ],\n"
+    "   \"KillProcess\": \n"
+    "   [\n"
+    "       {\n"
+    "           \"AccurateSearch\": \"\",\n"
+    "           \"ProcessName\": \"\"\n"
+    "       }\n"
+    "   ],\n"
+    "   \"RestartAPK\": \n"
+    "   [\n"
+    "       {\n"
+    "           \"PackageName\": \"\",\n"
+    "           \"ActivityName\": \"\",\n"
+    "           \"RestartAPKInterval\": 0\n"
+    "       }\n"
+    "   ],\n"
+    "   \"IgnoreModifiedFileDir\": \n"
+    "   [\n"
+    "       \n"
+    "   ],\n"
+    "   \"ExtAction\":\n"
+    "   [\n"
+    "       {\n"
+    "           \"Dir\": \"\",\n"
+    "           \"RelatedModule\": \"\",\n"
+    "           \"ShellBeforeBuild\": \"\",\n"
+    "           \"ShellAfterBuild\": \"\"\n"
+    "       }\n"
+    "   ]\n"
+    "}\n"
+    ;
+
+#endif  //  BPR_COOMMON_CONFIG_H
